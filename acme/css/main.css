@@ -1,0 +1,206 @@
+/* General Rules */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: #f4f4f4;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.page-title {
+  margin-bottom: 15px;
+}
+
+.bg-dark {
+  background: #333;
+}
+
+.text-white {
+  color: #fff;
+}
+
+/* Site Header */
+.site-header {
+  background: #35424a;
+  color: #fff;
+  padding: 30px 0;
+  border-bottom: #e8491d 3px solid;
+}
+
+.site-header__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-header__logo span {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+.site-header__main-menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-header__main-menu li {
+  padding: 15px 10px;
+}
+
+.site-header__main-menu li a {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.site-header__main-menu li a:hover {
+  color: #ccc;
+  font-weight: bold;
+}
+
+/* Hero */
+.site-hero {
+  width: 100%;
+  height: 450px;
+  color: #fff;
+  background-image: url(../images/hero.jpg);
+  background-position: center center;
+}
+
+.site-hero__content {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-hero__content-title {
+  font-size: 3.6rem;
+}
+
+.site-hero__content-description {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Newsletter */
+.newsletter {
+  padding: 30px 0;
+  background: #35424a;
+  color: #fff;
+}
+
+.newsletter__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsletter__content input[type="email"] {
+  width: 250px;
+  padding: 15px;
+}
+
+.newsletter__content .subscribe-btn {
+  background: #e8491d;
+  color: #fff;
+  padding: 13px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Skills */
+.skills-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-items__item {
+  padding: 30px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-items__item img {
+  width: 125px;
+}
+
+.skills-items__item-title {
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+/* Footer */
+.site-footer {
+  background: #e8491d;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+
+/* About Us */
+.about-us__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.about-us__content p {
+  padding: 25px;
+}
+
+.about-us__content article,
+.about-us__content .site-sidebar {
+  padding: 20px;
+}
+
+.site-sidebar__widget {
+  padding: 25px;
+}
+
+.site-sidebar__widget-title {
+  text-align: center;
+}
+
+/* Services */
+.services__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.services__content p {
+  padding: 25px;
+}
+
+.site-sidebar {
+  width: 950px;
+}
+
+.services__content article,
+.about-us__content .site-sidebar {
+  padding: 20px;
+}
+
+.site-sidebar__widget {
+  padding: 25px;
+}

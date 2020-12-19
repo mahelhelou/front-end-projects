@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acme Startup | Services</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header__content">
+        <div class="site-header__brand">
+          <h1 class="site-header__logo"><span>Acme</span> Web Design</h1>
+        </div>
+        <nav class="site-header__main-menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter">
+    <div class="container">
+      <div class="newsletter__content">
+        <h2 class="newsletter__title">Subscribe to our news letter</h2>
+        <form action="process.php">
+          <input type="email" name="user-email" placeholder="Enter your email">
+          <button type="submit" class="subscribe-btn">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- newsletter-end -->
+
+  <!-- MAIN -->
+  <main class="page services">
+    <div class="container">
+      <div class="services__content">
+        <article>
+          <h1 class="page-title">Services</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, in. Enim repellat, ducimus exercitationem
+            esse excepturi minima expedita ea delectus id aspernatur, magni quo, natus commodi. Suscipit eligendi quod
+            deleniti molestias illum aspernatur eaque deserunt ratione maxime ad totam odit, perferendis dolores numquam
+            reiciendis quos in repellat quo? Placeat incidunt eaque minima, quas soluta modi.</p>
+          <p class="bg-dark text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates consequatur
+            et, non repudiandae dignissimos quidem nobis tempore obcaecati assumenda illo nihil quam est nam voluptate
+            fuga aut, eveniet sint reiciendis voluptatem placeat sapiente laborum perspiciatis dolorum! Ratione id,
+            dolorum tempore officiis praesentium blanditiis nemo accusamus fugiat assumenda tenetur sapiente sit ipsa in
+            a, et inventore.</p>
+        </article>
+
+        <!-- SIDEBAR -->
+        <aside class="site-sidebar">
+          <div class="bg-dark text-white">
+            <div class="site-sidebar__widget">
+              <h3 class="site-sidebar__widget-title">Get a Quote!</h3>
+              <form action="quote.php">
+                <input type="text" name="user-name" placeholder="Your name">
+                <input type="email" name="user-email" placeholder="Your email...">
+              </form>
+            </div>
+          </div>
+        </aside>
+        <!-- sidebar-end -->
+      </div>
+    </div>
+  </main>
+  <!-- main-end -->
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p class="site-footer__copyright">Acme - All rights are reserved &copy;
+        <script>document.write(new Date().getUTCFullYear())</script>
+      </p>
+    </div>
+  </footer>
+  <!-- footer-end -->
+</body>
+
+</html>
